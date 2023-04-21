@@ -1,0 +1,22 @@
+{
+  "name": "your-app-name",
+  "description": "Description of your app",
+  "keywords": ["your", "keywords"],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": "",
+  "logo": "",
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Telegram bot API token",
+      "required": true
+    }
+  }
+}
